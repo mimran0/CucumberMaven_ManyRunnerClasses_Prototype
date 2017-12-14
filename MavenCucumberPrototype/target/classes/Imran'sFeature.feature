@@ -1,0 +1,19 @@
+Feature: This feature contains scenarios that has only print statements. 
+#(Objecttive is to create different types of runner classes)
+
+  Scenario: Love you
+    Given this is my first dummy given step
+    When this is my first dummy when step
+    Then this is first dummy then step
+
+  @Love
+  Scenario: Love you more
+    Given First
+    When Second
+    Then Third
+
+  @like
+  Scenario: Love you more for liking me
+    Given First
+    When Second
+    Then Third
